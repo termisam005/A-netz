@@ -1,0 +1,138 @@
+
+// .ex_scroll{
+//     width: 400px;
+//     height: 400px;
+//     background-color: #fff;
+//     border: 1px solid #ccc;
+//     transform:rotate(-90deg);
+//     overflow-y: scroll;
+//     overflow-x: hidden;
+// }
+// .ex_sc_cont{
+//     width: 600px;
+//     height: 380px;
+//     background-color: #eee;
+//     transform: rotate(90deg) translate(100px, 100px);
+// }
+
+
+.ex_container{
+    //height: 100vh;
+    background: lightgray;
+    display: grid;
+
+    //grid-template-columns: 4fr 6fr;
+    grid-template-columns: repeat(3, 1fr);
+    //grid-auto-rows: 200px;
+    grid-auto-rows: minmax(10em, auto);
+    grid-gap: 1rem;
+
+    //justify-items: end;
+    //align-items: center;
+}
+ 
+.ex_item{
+    background-color: rgba(255,0,0,0.5);
+    &:first-child{
+        grid-column: 1/4;
+    }
+    &:nth-child(4){
+        grid-column: 3;
+        grid-row: 2/4;
+    }
+    &:nth-child(5){
+        justify-self: start;
+        align-self: center;
+    }
+}
+.ex_item:nth-child(odd) {
+    background: rgba(255, 255, 0, 0.5);
+}
+
+
+//ScrollTest1
+// html {
+//     scroll-behavior: smooth;
+// }
+
+.ex_body {
+    width: 100%;
+    margin: 0;
+    //display: grid;
+    //grid-template-columns: min-content 1fr;
+    font-family: system-ui, sans-serif;
+    position: relative;
+
+    /* this breaks position sticky in Firefox */
+    /* overflow-x: hidden; */
+}
+
+.ex_header {
+    grid-column: 1 / 3;
+    background: #455A64;
+    color: white;
+    padding: 4rem;
+    text-align: center;
+}
+
+.ex_nav {
+    white-space: nowrap;
+    background: #37474F;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.ex_nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+    .ex_nav ul {
+        position: sticky;
+        top: 0;
+    }
+}
+
+.ex_nav ul li a {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.ex_nav ul li a.current {
+    background: black;
+}
+
+.ex_main {
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+
+.ex_main section {
+    height: 100vh;
+    border-bottom:2px solid #fff;
+    padding: 3rem 1rem 1rem;
+    background-color: #eee;
+}
+
+
+/*Select*/
+.css-13cymwt-control{
+    cursor: pointer !important;
+}
+.css-1u9des2-indicatorSeparator{
+    background-color: transparent !important;
+}
+// .css-1xc3v61-indicatorContainer{
+//     color: #000 !important;
+// }
+

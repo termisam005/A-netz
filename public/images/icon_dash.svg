@@ -1,0 +1,17 @@
+<svg id="dashboard_24px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_42431" data-name="사각형 42431" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="사각형_42428" data-name="사각형 42428" width="6.5" height="16.5" transform="translate(3.75 3.75)"/>
+  <g id="그룹_181272" data-name="그룹 181272">
+    <g id="그룹_181271" data-name="그룹 181271" clip-path="url(#clip-path)">
+      <path id="패스_92594" data-name="패스 92594" d="M9.5,19.5h-5V4.5h5ZM11,3H3.75A.75.75,0,0,0,3,3.75v16.5a.75.75,0,0,0,.75.75H11Z"/>
+      <rect id="사각형_42429" data-name="사각형 42429" width="6.75" height="6.5" transform="translate(13.5 3.75)"/>
+      <path id="패스_92595" data-name="패스 92595" d="M19.5,9.5H14.25v-5H19.5ZM20.25,3h-7.5v8H21V3.75A.75.75,0,0,0,20.25,3"/>
+      <rect id="사각형_42430" data-name="사각형 42430" width="6.75" height="6.75" transform="translate(13.5 13.5)"/>
+      <path id="패스_92596" data-name="패스 92596" d="M19.5,19.5H14.25V14.25H19.5ZM21,12.75H12.75V21h7.5a.75.75,0,0,0,.75-.75Z"/>
+    </g>
+  </g>
+</svg>

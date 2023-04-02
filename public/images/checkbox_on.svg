@@ -1,0 +1,13 @@
+<svg id="check_box_-_selected" data-name="check box - selected" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="사각형_3872" data-name="사각형 3872" width="16" height="16" rx="2" transform="translate(2 2)" fill="#00b295"/>
+  <g id="Check_Box_-_blue" data-name="Check Box - blue" transform="translate(0.11 -0.275)">
+    <g id="그룹_839" data-name="그룹 839" transform="translate(1.89 2.275)">
+      <g id="icon_-_check" data-name="icon - check">
+        <path id="패스_1974" data-name="패스 1974" d="M-3723.553-1432.545h-.066a.708.708,0,0,0-.439.206l-3.958,3.961-1.207-1.205a.705.705,0,0,0-.484-.19.723.723,0,0,0-.526.226.722.722,0,0,0,0,.987l1.707,1.707a.719.719,0,0,0,1.017,0l4.464-4.463a.722.722,0,0,0,0-1.018A.723.723,0,0,0-3723.553-1432.545Z" transform="translate(3734.632 1437.594)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="그룹_2645" data-name="그룹 2645" transform="translate(-0.11 0.275)">
+      <rect id="사각형_2135" data-name="사각형 2135" width="20" height="20" fill="none"/>
+    </g>
+  </g>
+</svg>

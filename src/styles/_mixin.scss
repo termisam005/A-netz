@@ -1,0 +1,223 @@
+$bgfff:#fff;
+$bgf0f:#f0f1f5;
+$bgdb: #002252;
+$colfff:#fff;
+$col333:#333;
+$col000:#000;
+$fs12:12px;
+$fs13:13px;
+$fs14:14px;
+$fs16:16px;
+$fs18:18px;
+$fs20:20px;
+$fs24:24px;
+
+//position
+@mixin tal {text-align: left !important;}
+@mixin tac {text-align: center !important;}
+@mixin tar {text-align: right !important;}
+@mixin dpblock {display: block !important;}
+@mixin dpinblock {display: inline-block !important;}
+@mixin dpinline {display: inline !important;}
+@mixin dflx {display: flex !important;}
+@mixin fleft {float:left !important;}
+@mixin fright {float:right !important;}
+@mixin bold {font-weight: bold !important;}
+@mixin clear {&::after{content:"";display:block;clear:both;}}
+
+//padding
+@mixin pd10{padding: 10px;}
+@mixin pd12{padding: 12px;}
+@mixin pd15{padding: 15px;}
+@mixin pd17{padding: 17px;}
+@mixin pd20{padding: 20px;}
+@mixin pd25{padding: 25px;}
+@mixin pd30{padding: 25px;}
+
+//margin
+@mixin mg10{margin: 10px;}
+@mixin mg12{margin: 12px;}
+@mixin mg15{margin: 15px;}
+@mixin mg17{margin: 17px;}
+@mixin mg20{margin: 20px;}
+@mixin mg25{margin: 25px;}
+@mixin mg30{margin: 30px;}
+
+//flex
+@mixin dflx_as {
+    display: flex;
+    align-items: flex-start;
+}
+@mixin dflx_ac {
+    display: flex;
+    align-items: center;
+}
+@mixin dflx_ae {
+    display: flex;
+    align-items: flex-end;
+}
+@mixin dflx_jbet {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin dflx_jstart{
+    display: flex;
+    justify-content: flex-start;
+}
+@mixin dflx_jcent{
+    display: flex;
+    justify-content: center;
+}
+@mixin dflx_jend{
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin dflx_ac_jcent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin dflx_ae_jcent {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+@mixin dflx_ac_jbet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin dflx_ae_jbet {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+@mixin dflx_ac_jend {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@mixin flx_wrap {
+    flex-wrap: wrap;
+}
+@mixin flx_nowrap {
+    flex-wrap: nowrap;
+}
+
+//font
+@mixin fm_spoqa {
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+}
+@mixin fs_24_bold {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+@mixin fs_24_medium {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+@mixin fs_20_bold {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+@mixin fs_20_medium {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+@mixin fs_18_bold {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+@mixin fs_18_medium {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+@mixin fs_16_bold {
+    font-size: 1rem;
+    font-weight: 700;
+}
+@mixin fs_16_medium {
+    font-size: 1rem;
+    font-weight: 500;
+}
+@mixin fs_16_regular {
+    font-size: 1rem;
+    font-weight: 400;
+}
+@mixin fs_15_medium {
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+@mixin fs_15_regular {
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+@mixin fs_14_bold {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+@mixin fs_14_medium {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+@mixin fs_14_regular {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+@mixin fs_13_regular {
+    font-size: 0.8125rem;
+    font-weight: 400;
+}
+@mixin fs_12_medium {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+@mixin fs_12_regular {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+@mixin fs_11_medium {
+    font-size: 0.6875rem;
+    font-weight: 500;
+}
+@mixin fs_11_regular {
+    font-size: 0.6875rem;
+    font-weight: 400;
+}
+
+
+//background
+@mixin rpno_cent_cent{
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@mixin bgfff_p20{
+    background: #fff;
+    border-radius: 10px;
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+}
+
+//popup
+@mixin pop_bg1 {
+    background-color: #fff;
+    box-shadow: 0px 1.25rem 3.125rem rgba(0, 0, 0, 0.2);
+    border-radius: 1.25rem;
+}
+
+//trans_center
+@mixin ab_trans_center {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50% );
+}
+
+//text_overflow
+@mixin txt_ellip {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+

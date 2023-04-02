@@ -1,0 +1,14 @@
+<svg id="select_arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="26" viewBox="0 0 16 26">
+  <g id="select_arrow-2" data-name="select_arrow" transform="translate(-825 -452)" opacity="0.4">
+    <g id="north_-16px" data-name="north -16px" transform="translate(825 452)">
+      <g id="그룹_178247" data-name="그룹 178247" transform="translate(1732 618) rotate(180)">
+        <path id="arrow" d="M4.616.461a.5.5,0,0,1,.768,0L9.317,5.18A.5.5,0,0,1,8.932,6H1.068a.5.5,0,0,1-.384-.82Z" transform="translate(1729 613) rotate(180)"/>
+        <rect id="사각형_37818" data-name="사각형 37818" width="16" height="16" transform="translate(1716 602)" fill="none"/>
+      </g>
+    </g>
+    <g id="south_-_16px" data-name="south - 16px" transform="translate(825 462)">
+      <path id="arrow-2" data-name="arrow" d="M4.616.461a.5.5,0,0,1,.768,0L9.317,5.18A.5.5,0,0,1,8.932,6H1.068a.5.5,0,0,1-.384-.82Z" transform="translate(13 11) rotate(180)"/>
+      <rect id="사각형_37818-2" data-name="사각형 37818" width="16" height="16" fill="none"/>
+    </g>
+  </g>
+</svg>
